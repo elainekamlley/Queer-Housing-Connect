@@ -1,0 +1,27 @@
+.center {
+		border-style: solid;
+		border: 2px;
+		border-color:black;
+		height: 50%;
+		width:50%;
+		padding-top: 25%;
+		padding-left: 40%;
+		padding-right: 25%;
+
+}
+
+
+.signup {
+		background-color: #ebebeb;
+		width: 200px;
+		height: 50px;
+		border: 2px;
+		border-color: #233647;
+		border-style: solid;
+		font-family: Helvetica;	
+		border-color: #1e1a1c;
+		padding-top: 10px;
+		padding-left: 20px;
+		margin: 5px;
+		display: block;
+}
