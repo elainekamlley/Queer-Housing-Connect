@@ -2,19 +2,35 @@
 
 	<head>
 		<title> Profile </title>
-		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='profile.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesh.css') }}">
 
 	</head>
 
 	<body>
-		<h1>SiteName/Title</h1>
-		<div class='house'> This will be the profile view</div>
+	<div id='navigation_bar'>
+
+			<h1> Site Name </h1>
+			<a href="{{ url_for('profile') }}"><div class= 'sign_in'> Profile</div></a>
+			<a href="{{ url_for('signin') }}"><div class= 'sign_in'> Sign in</div></a>
+			<a href="{{ url_for('index') }}"><div class= 'sign_in'> Home </div></a>
+			<div class= 'search'>search</div>
+			
+		</div>
+	
+			<div class = 'thumbnail'> pic 1 </div>
+			<div class = 'thumbnail'> pic 2 </div>
+			<div class = 'thumbnail'> pic 3 </div>
+			<div class = 'thumbnail'> pic 4 </div>
+
+			<div id = 'main_pic'> main picture </div>
+
+		<div id = 'profile_sec'>
+			<div class = 'thumbnail'> profile pic</div>
+			<p> this is profile text. This will say a little about the person, where they are located, and other things about their identity.</p>
+		</div>
 
 
 	</body>
-
-
-
 
 
 </html>

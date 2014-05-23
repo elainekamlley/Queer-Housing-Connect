@@ -28,14 +28,18 @@ div.sign_in {
 	text-align: center;
 	box-shadow: 5px 5px 5px ##464445;
 	display: inline-block;
+	color: #233647;
+	text-decoration: none;
+
 }
 
 .sign_in:hover {color:white; background-color: black;}
 
-div.search {
+.search {
 	border-width: 2px;
 	border-style: solid;
 	border-color: #1e1a1c;
+	border-radius: 25px;
 	width: 300px;
 	height: 25px;
 	margin-right: 125px;
@@ -63,7 +67,7 @@ div.search {
 
 .holder {display: inline-block;}
 
-div.house {
+.house {
 	background-color: #ebebeb;
 	width: 400px;
 	height: 50px;
@@ -97,28 +101,75 @@ div.house {
 	padding-left: 20px;
 	margin-top: 400px;
 	display: inline-block;
-	/*margin-left: 550px;*/
+
 }
 
-/*div.nights {
-	background-color: #ebebeb;
-	width: 200px;
-	height: 50px;
-	border-top: 2px;
-	border-right: 2px;
-	border-left:2px;
-	border-bottom: 4px;
-	border-style: solid;
-	font-family: Helvetica;
-	border-color: #1e1a1c;
-	padding-left: 20px;
-	/*margin-top: 400px;
-	margin-left: 800px;*/
 
 .pic {
 	width: 300px;
 	height: 500px;
 	border-style: solid;
+}
+
+/*This section is for sign in page*/
+
+.sign_center {
+		background-image: url("street.jpg");
+		border-style: solid;
+		border: 2px;
+		border-color:black;
+		height: 50%;
+		width:50%;
+		padding-top: 25%;
+		padding-left: 40%;
+		padding-right: 25%;
+
+}
 
 
+.signin {
+		background-color: #ebebeb;
+		width: 200px;
+		height: 50px;
+		border: 2px;
+		border-color: #233647;
+		border-style: solid;
+		font-family: Helvetica;	
+		border-color: #1e1a1c;
+		padding-left: 5px;
+		padding-top: 5px;
+		margin: 5px;
+		display: block;
+
+}
+/* This section is for the profile page*/
+
+.thumbnail {
+	width: 125px;
+	height: 125px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: 20px;
+	background-color: #ebebeb;
+	text-align: center;
+}
+
+#main_pic {
+	width: 600px;
+	height: 600px;
+	border-width: 2px;
+	border-color: black;
+	background-color: #ebebeb;
+	margin-left: 200px;
+	margin-top: -600px;
+}
+
+#profile_sec {
+	width: 200px;
+	height: 600px;
+	margin-left: 900px;
+	margin-top: -600px;
+	padding-left: 10px;
+	text-align: center;
 }

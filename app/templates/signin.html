@@ -1,14 +1,23 @@
 <html>
 	<head>
 		<title>Queer Housing - Sign in</title>
-		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='signin.css') }}">	
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesh.css') }}">	
 	</head>
 
 	<body>
-		<div class= 'center'>
-			<div class = 'signup'>Name:</div>
-			<div class = 'signup'>Email:</div>
-			<div class = 'signup'>Phone:</div>
+	<div id='navigation_bar'>
+
+			<h1> Site Name </h1>
+			<a href="{{ url_for('profile') }}"><div class= 'sign_in'> Profile</div></a>
+			<a href="{{ url_for('signin') }}"><div class= 'sign_in'> Sign in</div></a>
+			<a href="{{ url_for('index') }}"><div class= 'sign_in'> Home </div></a>
+			<div class= 'search'>search</div>
+			
+		</div>
+		<div class= 'sign_center'>
+			<div class = 'signin'>Name:</div>
+			<div class = 'signin'>Email:</div>
+			<div class = 'signin'>Phone:</div>
 		</div>
 
 	</body>
